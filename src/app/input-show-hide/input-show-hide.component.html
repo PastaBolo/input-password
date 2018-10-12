@@ -1,0 +1,5 @@
+<input [type]="show ? 'text' : 'password'" [value]="value" (input)="onValueChange($event.target.value)">
+<div class="show-hide-buttons" (click)="show = !show">
+  <ng-container *ngIf="show">Masquer</ng-container>
+  <ng-container *ngIf="!show">Montrer</ng-container>
+</div>

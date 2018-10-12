@@ -1,0 +1,4 @@
+input.hide-ms-reveal::-ms-clear, 
+input.hide-ms-reveal::-ms-reveal {
+  display: none;
+}

@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+}
+
+input::-ms-reveal,
+input::-ms-clear
+{
+    display: none;
+}
+
+.show-hide-buttons {
+  position: relative;
+  right: 50px;
+  bottom: 20px;
+}
