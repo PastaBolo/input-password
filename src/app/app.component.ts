@@ -12,8 +12,7 @@ export class AppComponent {
 
   constructor() {
     this.form = new FormGroup({
-      password: new FormControl('form p455w0rd', this.passwordPatternValidator),
-      stars: new FormControl(2)
+      password: new FormControl('form p455w0rd', this.passwordPatternValidator)
     });
   }
 
